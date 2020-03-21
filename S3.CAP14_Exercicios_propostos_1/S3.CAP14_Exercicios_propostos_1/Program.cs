@@ -102,16 +102,38 @@ namespace S3.CAP24_Exercicios_propostos_1
             Console.ReadLine();
 
 
-        ///Exercício 6:
-        ///Fazer um programa que leia três valores com ponto flutuante de dupla precisão: A, B e C. Em seguida, calcule e mostre:
-        ///a) a área do triângulo retângulo que tem A por base e C por altura.
-        ///b) a área do círculo de raio C. (pi = 3.14159)
-        ///c) a área do trapézio que tem A e B por bases e C por altura.
-        ///d) a área do quadrado que tem lado B.
-        ///e) a área do retângulo que tem lados A e B.
+            ///Exercício 6:
+            ///Fazer um programa que leia três valores com ponto flutuante de dupla precisão: A, B e C. Em seguida, calcule e mostre:
+            ///a) a área do triângulo retângulo que tem A por base e C por altura.
+            ///b) a área do círculo de raio C. (pi = 3.14159)
+            ///c) a área do trapézio que tem A e B por bases e C por altura.
+            ///d) a área do quadrado que tem lado B.
+            ///e) a área do retângulo que tem lados A e B.
+            ///
 
 
+            double AA, BB, CC, trinagulo, circulo, trapezio, quadrado, retangulo;
 
+            Console.WriteLine("Entrada:");
+            string[] valores = Console.ReadLine().Split(" ");
+
+            AA = double.Parse(valores[0], CultureInfo.InvariantCulture);
+            BB = double.Parse(valores[1], CultureInfo.InvariantCulture);
+            CC = double.Parse(valores[2], CultureInfo.InvariantCulture);
+
+            trinagulo = AA * CC / 2.0;
+            circulo = 3.14159 * (CC * CC);
+            trapezio = ((AA + BB) * CC) / 2;
+            quadrado = BB * BB;
+            retangulo = AA * BB;
+
+            Console.WriteLine("TRINAGULO: {0}", trinagulo.ToString("F3", CultureInfo.InvariantCulture));
+            Console.WriteLine("CIRCULO: {0}", circulo.ToString("F3", CultureInfo.InvariantCulture));
+            Console.WriteLine("TRAPEZIO: {0}", trapezio.ToString("F3", CultureInfo.InvariantCulture));
+            Console.WriteLine("QUADRADO: {0}", quadrado.ToString("F3", CultureInfo.InvariantCulture));
+            Console.WriteLine("RETANGULO: {0}", retangulo.ToString("F3", CultureInfo.InvariantCulture));
+
+            Console.ReadKey();
         }
     }
 }
