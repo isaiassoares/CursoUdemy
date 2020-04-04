@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S6.CAP80_Exercicio_resolvido1 (matriz)", "S6.CAP80_Exercicio_resolvido1 (matriz)\S6.CAP80_Exercicio_resolvido1 (matriz).csproj", "{528BF1E4-5180-4ADF-B3F6-0453C6283C0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{528BF1E4-5180-4ADF-B3F6-0453C6283C0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{528BF1E4-5180-4ADF-B3F6-0453C6283C0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{528BF1E4-5180-4ADF-B3F6-0453C6283C0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{528BF1E4-5180-4ADF-B3F6-0453C6283C0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E9E87B7-A8FA-46B4-9685-1710D6605899}
+	EndGlobalSection
+EndGlobal

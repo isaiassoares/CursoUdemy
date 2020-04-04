@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>S6.CAP69_Problema_exemplo10__array_</RootNamespace>
+  </PropertyGroup>
+
+</Project>
